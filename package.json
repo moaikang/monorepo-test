@@ -1,0 +1,14 @@
+{
+  "name": "monorepo",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "packageManager": "yarn@3.2.3",
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.2"
+  }
+}
